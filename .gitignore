@@ -1,0 +1,33 @@
+# R session and workspace
+.Rhistory
+.RData
+.Ruserdata
+
+# R package build artifacts
+*.tar.gz
+/*.Rcheck/
+
+# pkgdown site
+/docs/
+/pkgdown/
+
+# Test and coverage outputs
+.Rproj.user/
+coverage/
+*.covr
+
+# Dependency management
+renv/library/
+renv/python/
+renv/staging/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+
+# Environment/secrets
+.Renviron
+.Renviron.local
+.env
+
+test.r
