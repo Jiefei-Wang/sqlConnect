@@ -1,0 +1,25 @@
+Package: sqlConnect
+Type: Package
+Title: Convenient Table Accessors for DBI Connections
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jiefei", "Wang", , "szwjf08@gmail.com", role = c("aut", "cre"))
+Description: Provides an S4 wrapper around DBI connections to discover schemas,
+    list tables, and access database tables with `$` and `[[` operators. The
+    package includes backend-aware metadata queries for Oracle, PostgreSQL, SQL
+    Server, MySQL, SQLite, and Snowflake, with optional table-name caching for
+    interactive workflows.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 4.1.0)
+Imports:
+    DBI,
+    dplyr,
+    glue,
+    methods
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
